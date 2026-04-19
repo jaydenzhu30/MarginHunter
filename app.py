@@ -9,7 +9,7 @@ app = Flask(__name__)
 CORS(app, origins="*", allow_headers=["Content-Type"], methods=["GET", "OPTIONS"])
 
 BALLDONTLIE_BASE = "https://api.balldontlie.io/v1"
-API_KEY = os.environ.get("BALLDONTLIE_API_KEY", "621e639d-76ee-41b9-8724-c96392e46a2e")
+API_KEY = os.environ.get("BALLDONTLIE_API_KEY", "f71f3702-7e4e-40ce-8056-f4d19fb2dca2")
 
 # 2024-25 NBA rotations with correct BallDontLie IDs
 # Team IDs match BallDontLie's team numbering
